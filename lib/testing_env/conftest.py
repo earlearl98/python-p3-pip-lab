@@ -8,4 +8,4 @@ def pytest_itemcollected(item):
     if pref or suf:
         item._nodeid = ' '.join((pref, suf))
 
-        pass
+        
